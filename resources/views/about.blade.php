@@ -33,7 +33,7 @@
         @for($i=0;$i<7;$i++)
         <div class="row d-flex justify-content-center">
             @for($j=0;$j<3;$j++)
-            <div class="col-lg-3 col-sm-6 mx-3">
+            <div class="col-lg-3 col-sm-6 mx-3 pt-3">
                 <div class="card p-2">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">PACLIC 34 (2020)</h5>
@@ -55,5 +55,36 @@
         </div>
         @endfor
     </div>
+</section>
+<section class="background-page">
+    <div class="container-fluid">
+        {{-- Organizers --}}
+        <div class="floating-underline alt">
+            <span class="h4 text-center px-4 pt-4 pb-0 mb-0">
+                <span class="font-weight-bold" id="paclic-header-org">PACLIC</span>
+                <span class="font-weight-bold" id="paclic-header-organizers">ORGANIZERS</span>
+            </span> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-lg-4 text-center">
+                <img class="img-fluid organizer" src="/img/businessmanV1.png" alt="org1">
+            </div>
+            <div class="col-lg-6 pt-3">
+                <h3 class="font-weight-bold organizer-name">Lorem Ipsum</h3>
+                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi excepturi quidem repellendus tempore ad, obcaecati sint corrupti temporibus dolorem maxime nihil quasi est quam saepe neque libero nostrum tempora!</p>
+            </div>
+            <div class="col-lg-4 text-center mt-5">
+                <img class="img-fluid organizer" src="/img/businessmanV1.png" alt="org1">
+            </div>
+            <div class="col-lg-6 pt-sm-3">
+                <h3 class="font-weight-bold organizer-name mt-5 mt-sm">Lorem Ipsum</h3>
+                <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi excepturi quidem repellendus tempore ad, obcaecati sint corrupti temporibus dolorem maxime nihil quasi est quam saepe neque libero nostrum tempora!</p>
+            </div>
+        </div> 
+    </div>
+        
+    
 </section>
 @endsection
