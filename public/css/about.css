@@ -1,0 +1,17 @@
+@media (max-width: 576px) {
+    .img-logo {
+        display: none;
+    }
+}
+
+/* Past Conference */
+#conference {
+    background-color:#04333B;
+
+}
+#paclic-header {
+    color: #fff;
+}
+#paclic-header-conference {
+    color: #72B045;
+}

@@ -1,0 +1,86 @@
+/* sm screen */
+@media (max-width: 576.98px) { 
+    .banner-text {
+        display: none;
+    }
+    .w-sm-50 {
+		width: 50%!important;
+	}
+ }
+ /* md screen */ 
+ @media (max-width: 991.98px) {
+     .banner-text {
+         display: none;
+     }
+     .w-md-75 {
+		width: 75%!important;
+	}
+ }
+
+ @media(max-width: 768px) {
+    .w-md-75 {
+		width: 75%!important;
+	}
+ }
+
+/* lg screen */
+ @media (min-width: 992px) { 
+    .w-lg-15 {
+        width: 15% !important;
+    }
+ }
+ 
+
+/* submission header */
+.submission-header {
+    background-color: #F5F7FF;
+}
+
+.btn-submit {
+    background-color: #72B045;
+    color: #fff;
+}
+
+/* Navbar */
+.nav-link {
+    color: #fff!important;
+}
+.bg-navbar {
+    background-color: #04333B;
+    color: white!important;
+}
+
+
+
+
+/* banner */
+#banner {
+    background-image: url("/img/banner.png");
+    /* filter: brightness(1.25) contrast(0.75); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    color: white;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    color: white;
+}
+
+.banner-logo {
+    width: 100%;
+}
+
+/* Second Navbar */
+.dropdown-menu {
+    background-color: #04333B;
+    border: none;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(218, 233, 219, 0.5);
+
+}
