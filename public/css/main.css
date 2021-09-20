@@ -45,6 +45,14 @@ body {
     content: " ";
     border-top: 2px solid #000;
 }
+/* PACLIC HEADER */
+.paclic-header-white {
+    color: #fff;
+}
+
+.paclic-header-green {
+    color: #72B045;
+}
 /* Footer */
 footer {
     background-color: #F5F7FF;

@@ -10,19 +10,12 @@
     }
 }
 
-/* Past Conference */
-#conference {
+/*Conference */
+.bg-green{
     background-color: #04333B;
-
 }
 
-#paclic-header {
-    color: #fff;
-}
 
-#paclic-header-conference {
-    color: #72B045;
-}
 
 /* Cards Conference */
 .card {
@@ -41,14 +34,20 @@ hr {
 #paclic-header-org {
     color: #000;
 }
-#paclic-header-organizers {
-    color: #72B045;
-}
 /* Organizers */
 .organizer {
     width: 250px;
 }
-p {
+.p-organizer {
     text-align: justify;
     text-justify: inter-word;
 }
+/* Sponsors */
+.card-bg {
+    background-color:#04333B;
+}
+.sponsor-name {
+    text-decoration: none;
+    text-align: center;
+}
+
