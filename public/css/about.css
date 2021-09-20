@@ -6,12 +6,32 @@
 
 /* Past Conference */
 #conference {
-    background-color:#04333B;
+    background-color: #04333B;
 
 }
+
 #paclic-header {
     color: #fff;
 }
+
 #paclic-header-conference {
     color: #72B045;
+}
+
+h4 {
+    text-decoration: underline #fff;
+}
+/* Cards Conference */
+.card {
+    border-radius: 47px;
+}
+.card-text {
+    font-size: 14px!important;
+}
+.card-title {
+    color:#72B045;
+    text-decoration: underline;
+}
+hr {
+    border: 1px solid #72B045;
 }
