@@ -1,10 +1,8 @@
 @extends('template.master')
-
+@section('css', 'contact')
 @section('content')
-<link rel="stylesheet" href="/css/contact.css">
-<link rel="stylesheet" href="/css/main.css">
-
-<div class="container-fluid pt-5 mb-5 ml-auto">
+@include('template.banner')
+<div class="container-fluid py-5 ml-auto my-auto">
     <div class="d-flex align-items-center my-auto mx-auto">
         <h1 class="email-contact font-weight-bold">
             paclic2022@gmail.com
@@ -16,8 +14,5 @@
             Email for your inquires and additional information
         </h1>
     </div>
-</div>
-<div class="container mb-5">
-    <hr>
 </div>
 @endsection

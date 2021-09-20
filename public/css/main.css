@@ -25,6 +25,19 @@ body {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
+.floating-underline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.floating-underline::after {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    width: 15%;
+    content: " ";
+    border-top: 1px solid #fff;
+}
 /* Footer */
 footer {
     background-color: #F5F7FF;

@@ -4,6 +4,6 @@
 
 @section('content')
 <link rel="stylesheet" href="/css/home.css">
-@include('template.home-banner')
+@include('template.banner')
 
 @endsection

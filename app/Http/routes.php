@@ -12,11 +12,22 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        'page' => "home"
+    ]);
 });
+
+
+
+
+
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact', [
+        'page' => "contact us"
+    ]);
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        'page' => "about us"
+    ]);
 });
