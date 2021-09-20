@@ -27,9 +27,9 @@
         <div class="row">
             <div class="col-12 d-flex flex-row justify-content-center align-items-center my-2">
                 <h5 class="lead my-auto mr-4">Submission Deadline: September 15, 2021</h5>
-                <button class="btn border-rounded btn-submit my-auto font-weight-bold display-4 px-3"
+                <a class="btn border-rounded btn-submit my-auto font-weight-bold display-4 px-3" href="{{ url('submission') }}"
                     type="button">SUBMIT
-                    NOW!</button>
+                    NOW!</a>
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item text-white" href="#">Important Dates</a>
-                            <a class="dropdown-item text-white" href="#">Submission</a>
+                            <a class="dropdown-item text-white" href="{{ url('submission') }}">Submission</a>
                             <a class="dropdown-item text-white" href="#">Registration</a>
                         </div>
                     </li>

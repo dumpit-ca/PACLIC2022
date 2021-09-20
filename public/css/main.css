@@ -53,6 +53,10 @@ body {
 .paclic-header-green {
     color: #72B045;
 }
+/* PACLIC BG COLORS */
+.bg-green{
+    background-color: #04333B;
+}
 /* Footer */
 footer {
     background-color: #F5F7FF;

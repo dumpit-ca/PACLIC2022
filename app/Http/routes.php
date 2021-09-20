@@ -16,11 +16,6 @@ Route::get('/', function () {
         'page' => "home"
     ]);
 });
-
-
-
-
-
 Route::get('/contact', function () {
     return view('contact', [
         'page' => "contact us"
@@ -29,5 +24,10 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about', [
         'page' => "about us"
+    ]);
+});
+Route::get('/submission', function () {
+    return view('submission', [
+        'page' => "author's guide - submission"
     ]);
 });
