@@ -3,14 +3,14 @@
 @section('content')
 <link rel="stylesheet" href="/css/submission.css">
 @include('template.banner')
-<div class="floating-underline alt">
+<div class="floating-underline alt mt-5">
     <span class="h4 text-center px-4 pt-4 pb-0 mb-0">
         <span class="font-weight-bold text-dark">PAPER</span>
         <span class="font-weight-bold paclic-header-green">SUBMISSION</span>
     </span>
 </div>
 <div class="container">
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mb-5">
         <p class="text-dark font-weight-bold">Papers may consist of up to ten (10) pages of content, including
             references and appendices.
             Submissions will be judged based on relevance, technical strength, significance and opportunities,
