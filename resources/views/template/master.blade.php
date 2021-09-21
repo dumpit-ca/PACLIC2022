@@ -62,7 +62,7 @@
                         <a class="nav-link" href="#">Program</a>
                     </li>
                     <li class="nav-item active mx-2">
-                        <a class="nav-link" href="#">Speakers</a>
+                        <a class="nav-link" href="{{ url('speakers') }}">Speakers</a>
                     </li>
                     <li class="nav-item active mx-2">
                         <a class="nav-link" href="#">Committee</a>

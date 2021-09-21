@@ -36,3 +36,8 @@ Route::get('/registration', function () {
         'page' => "author's guide - registration"
     ]);
 });
+Route::get('/speakers', function () {
+    return view('speakers', [
+        'page' => "speakers"
+    ]);
+});

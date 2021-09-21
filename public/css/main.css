@@ -49,9 +49,15 @@ body {
 .paclic-header-white {
     color: #fff;
 }
-
 .paclic-header-green {
     color: #72B045;
+}
+/* PACLIC Cards */
+.card {
+    border-radius: 47px;
+}
+.card-text {
+    font-size: 14px!important;
 }
 /* PACLIC BG COLORS */
 .bg-green{
