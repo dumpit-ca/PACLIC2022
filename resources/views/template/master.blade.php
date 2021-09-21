@@ -55,7 +55,7 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item text-white" href="#">Important Dates</a>
                             <a class="dropdown-item text-white" href="{{ url('submission') }}">Submission</a>
-                            <a class="dropdown-item text-white" href="#">Registration</a>
+                            <a class="dropdown-item text-white" href="{{ url('registration') }}">Registration</a>
                         </div>
                     </li>
                     <li class="nav-item active mx-2">

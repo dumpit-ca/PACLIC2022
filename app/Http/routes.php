@@ -31,3 +31,8 @@ Route::get('/submission', function () {
         'page' => "author's guide - submission"
     ]);
 });
+Route::get('/registration', function () {
+    return view('registration', [
+        'page' => "author's guide - registration"
+    ]);
+});
