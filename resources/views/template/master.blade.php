@@ -74,14 +74,14 @@
                         <a class="nav-link" href="{{ url('contact') }}">Contact Us<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <div class="input-group mb-3 w-lg-15 w-sm-50 w-md-75 my-auto">
+                {{-- <div class="input-group mb-3 w-lg-15 w-sm-50 w-md-75 my-auto">
                     <input type="text" class="form-control border-left-rounded border-right-0 border-left-0"
                         placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <div class="input-group-append">
                         <button class="input-group-text border-right-rounded bg-white" id="basic-addon2"><i
                                 class="bi bi-search"></i></button>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </nav>
     </div>
