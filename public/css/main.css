@@ -25,12 +25,14 @@ body {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 .floating-underline {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .floating-underline::after {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -38,6 +40,7 @@ body {
     content: " ";
     border-top: 2px solid #fff;
 }
+
 .floating-underline.alt::after {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -45,24 +48,35 @@ body {
     content: " ";
     border-top: 2px solid #000;
 }
+
+/* PACLIC TEXT ALIGNMENTS */
+p {
+    text-align: justify;
+}
+
 /* PACLIC HEADER */
 .paclic-header-white {
     color: #fff;
 }
+
 .paclic-header-green {
     color: #72B045;
 }
+
 /* PACLIC Cards */
 .card {
     border-radius: 47px;
 }
+
 .card-text {
-    font-size: 14px!important;
+    font-size: 14px !important;
 }
+
 /* PACLIC BG COLORS */
-.bg-green{
+.bg-green {
     background-color: #04333B;
 }
+
 /* Footer */
 footer {
     background-color: #F5F7FF;
@@ -72,23 +86,27 @@ footer {
     color: #04333B;
 }
 
-.footer-link  {
+.footer-link {
     font-size: 15px;
-    color: #383030!important;
-    text-decoration: none!important;
+    color: #383030 !important;
+    text-decoration: none !important;
 }
+
 .footer-home {
     border-right: 2px solid #04333B;
 }
+
 .footer-border {
     border-top: 1px solid #707070;
 }
+
 .social-icons {
-    text-decoration: none!important;
-    color: #72B045!important;
+    text-decoration: none !important;
+    color: #72B045 !important;
     font-size: 30px;
-    
+
 }
+
 #footer-bottom {
     background-color: #04333B;
     color: #fff;
