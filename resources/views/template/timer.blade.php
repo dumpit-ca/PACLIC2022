@@ -32,7 +32,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let conference = "Oct 20, 2021 09:00:00",
+  let conference = "Oct 20, 2022 09:00:00",
       countDown = new Date(conference).getTime(),
       x = setInterval(function() {    
 

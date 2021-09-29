@@ -68,19 +68,28 @@
     </div>
     <div class="container">
         <div class="row my-5">
+            {{-- Shirley Dita --}}
             <div class="col-lg-4 text-center">
                 <img class="img-fluid organizer" src="/img/businessmanV1.png" alt="org1">
             </div>
             <div class="col-lg-6 pt-3">
-                <h3 class="font-weight-bold organizer-name">Lorem Ipsum</h3>
-                <p class="text-left p-organizer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi excepturi quidem repellendus tempore ad, obcaecati sint corrupti temporibus dolorem maxime nihil quasi est quam saepe neque libero nostrum tempora!</p>
+                <h3 class="font-weight-bold organizer-name">Shirley N. Dita</h3>
+                <p class="text-left p-organizer">Convenor, PACLIC36</p>
+                <p class="text-left p-organizer">Associate Professor, Dept of English & Applied Linguistics (DEAL)</p>
+                <p class="text-left p-organizer">Br. Andrew Gonzalez FSC College of Education (BAGCED)</p>
+                <p class="text-left p-organizer">De La Salle University – Manila</p>
+                <p class="text-left p-organizer">shirley.dita@dlsu.edu.ph</p>
             </div>
+            {{-- Arlene Trillanes --}}
             <div class="col-lg-4 text-center mt-5">
                 <img class="img-fluid organizer" src="/img/businessmanV1.png" alt="org1">
             </div>
             <div class="col-lg-6 pt-sm-3">
-                <h3 class="font-weight-bold organizer-name mt-5 mt-sm">Lorem Ipsum</h3>
-                <p class="text-left p-organizer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi excepturi quidem repellendus tempore ad, obcaecati sint corrupti temporibus dolorem maxime nihil quasi est quam saepe neque libero nostrum tempora!</p>
+                <h3 class="font-weight-bold organizer-name mt-5 mt-sm">Arlene O. Trillanes</h3>
+                <p class="text-left p-organizer">Co-convenor, PACLIC 36</p>
+                <p class="text-left p-organizer">Dean, College of Computing and Information Technologies (CCIT) </p>
+                <p class="text-left p-organizer">National University, Manila, Philippines <a class="text-dark" href="">https://www.national-u.edu.ph/</a> </p>
+                <p class="text-left p-organizer">aotrillanes@national-u.edu.ph </p>
             </div>
         </div> 
     </div>   

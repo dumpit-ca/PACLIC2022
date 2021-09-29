@@ -33,6 +33,7 @@ hr {
 .p-organizer {
     text-align: justify;
     text-justify: inter-word;
+    line-height: 15px;
 }
 /* Sponsors */
 .card-bg {

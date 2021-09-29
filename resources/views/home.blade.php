@@ -32,5 +32,3 @@
     {{-- TIMELINE GOES HERE, CLAIRE --}}
 </section>
 @endsection
-
- {{--              タイムラインはここに配置されます。               --}}

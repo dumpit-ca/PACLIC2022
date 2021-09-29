@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +26,8 @@
         <div class="row">
             <div class="col-12 d-flex flex-row justify-content-center align-items-center my-2">
                 <h5 class="lead my-auto mr-4">Submission Deadline: September 15, 2021</h5>
-                <a class="btn border-rounded btn-submit my-auto font-weight-bold display-4 px-3" href="{{ url('submission') }}"
-                    type="button">SUBMIT
+                <a class="btn border-rounded btn-submit my-auto font-weight-bold display-4 px-3"
+                    href="{{ url('submission') }}" type="button">SUBMIT
                     NOW!</a>
             </div>
         </div>
@@ -59,29 +58,23 @@
                         </div>
                     </li>
                     <li class="nav-item active mx-2">
-                        <a class="nav-link" href="#">Program</a>
+                        <a class="nav-link" href="{{ url('program') }}">Program</a>
                     </li>
                     <li class="nav-item active mx-2">
                         <a class="nav-link" href="{{ url('speakers') }}">Speakers</a>
                     </li>
                     <li class="nav-item active mx-2">
-                        <a class="nav-link" href="#">Committee</a>
+                        <a class="nav-link" href="{{ url('committee') }}">Committee</a>
                     </li>
                     <li class="nav-item active mx-2">
-                        <a class="nav-link" href="{{ url('about') }}">About Us <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('about') }}">About Us <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active mx-2 mr-2">
-                        <a class="nav-link" href="{{ url('contact') }}">Contact Us<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('contact') }}">Contact Us<span
+                                class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                {{-- <div class="input-group mb-3 w-lg-15 w-sm-50 w-md-75 my-auto">
-                    <input type="text" class="form-control border-left-rounded border-right-0 border-left-0"
-                        placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <button class="input-group-text border-right-rounded bg-white" id="basic-addon2"><i
-                                class="bi bi-search"></i></button>
-                    </div>
-                </div> --}}
             </div>
         </nav>
     </div>
@@ -136,7 +129,6 @@
             </div>
         </div>
     </footer>
-
     <section id="footer-bottom">
         <div class="container-fluid">
             <div class="row">
@@ -152,13 +144,14 @@
             </div>
         </div>
     </section>
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
 </body>
 

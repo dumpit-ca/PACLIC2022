@@ -41,3 +41,13 @@ Route::get('/speakers', function () {
         'page' => "speakers"
     ]);
 });
+Route::get('/program', function () {
+    return view('program', [
+        'page' => "program"
+    ]);
+});
+Route::get('/committee', function () {
+    return view('committee', [
+        'page' => "committee"
+    ]);
+});
