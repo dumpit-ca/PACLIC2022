@@ -6,3 +6,17 @@
 .select-dates{
     background-color: #72B045!important;
 }
+.contents {
+    display: none;
+}
+
+.contents.active {
+    display: block;
+}
+#program-radius {
+    border-radius: 25px;
+}
+.program-hr {
+    border: 1px solid #fff;
+    width: 85%;
+}
