@@ -1,4 +1,5 @@
-<section class="bg-green">
+<link rel="stylesheet" href="/css/home.css">
+<section class="bg-green mt-5 pb-1">
     <div class="floating-underline">
         <span class="h4 text-center px-4 pt-4 pb-0 mb-0">
             <span class="font-weight-bold paclic-header-white">IMPORTANT</span>

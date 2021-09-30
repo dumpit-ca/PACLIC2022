@@ -51,3 +51,8 @@ Route::get('/committee', function () {
         'page' => "committee"
     ]);
 });
+Route::get('/dates', function () {
+    return view('dates', [
+        'page' => "author's guide - important dates"
+    ]);
+});
