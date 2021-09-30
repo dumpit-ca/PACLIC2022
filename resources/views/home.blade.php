@@ -22,55 +22,7 @@
     </div>
 </div>
 {{-- Timeline --}}
-<section class="bg-green">
-    <div class="floating-underline">
-        <span class="h4 text-center px-4 pt-4 pb-0 mb-0">
-            <span class="font-weight-bold paclic-header-white">IMPORTANT</span>
-            <span class="font-weight-bold paclic-header-green">DATES</span>
-        </span>
-    </div>
-    <div class="container">
-        <div class="timeline">
-            <div class="timeline-row">
-                <div class="timeline-content">
-                    <h4>April 15</h4>
-                    <p>Deadline of Paper Submission</p>
-                </div>
-            </div>
-            <div class="timeline-row">
-                <div class="timeline-content">
-                    <h4>June 15</h4>
-                    <p>Notification of Reviews</p>
-                </div>
-            </div>
-            <div class="timeline-row">
-                <div class="timeline-content">
-                    <h4>July 15</h4>
-                    <p>Deadline of camera-ready</p>
-                </div>
-            </div>
-            <div class="timeline-row">
-                <div class="timeline-content">
-                    <h4>August 15</h4>
-                    <p>Deadline of presenter's registration</p>
-                </div>
-            </div>
-            <div class="timeline-row">
-                <div class="timeline-content">
-                    <h4>September 15</h4>
-                    <p>Deadline of participant's registration</p>
-                </div>
-            </div>
-            <div class="timeline-row">
-                <div class="timeline-content">
-                    <h4>October 20-21</h4>
-                    <p>PACLIC 36</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@include('template.timeline')
 {{-- Keynote Speakers --}}
 <div class="container-fluid">
     <div class="floating-underline-n">
@@ -126,16 +78,16 @@
                         <img src="/img/businessmanV2.png" alt="">
                     </div>
                     <div class="pac-org-content">
-                        <p class="description">
-                            Associate Professor, Dept of English & Applied Linguistics (DEAL), Br. Andrew Gonzalez FSC
-                            College of Education (BAGCED)
-                        </p>
-                        <p class="description">
-                            De La Salle University – Manila : shirley.dita@dlsu.edu.ph
-                        </p>
                         <h3 class="pac-title">Shirley N. Dita
                             <small class="post">Convenor, PACLIC36</small>
                         </h3>
+                        <p class="description">
+                            De La Salle University – Manila : shirley.dita@dlsu.edu.ph
+                        </p>
+                        <p class="description">
+                            Associate Professor, Dept of English & Applied Linguistics (DEAL), Br. Andrew Gonzalez FSC
+                            College of Education (BAGCED)
+                        </p>                        
                     </div>
                 </div>
                 <div class="pac-org">
@@ -143,22 +95,20 @@
                         <img src="/img/businessmanV2.png" alt="">
                     </div>
                     <div class="pac-org-content">
-                        <p class="description">
-                            Dean, College of Computing and Information Technologies (CCIT) , National University,
-                            Manila, Philippines
-                        </p>
-                        <p class="description">
-                            aotrillanes@national-u.edu.ph
-                        </p>
                         <h3 class="pac-title">Arlene O. Trillanes
                             <small class="post">Co-convenor, PACLIC 36</small>
                         </h3>
+                        <p class="description">
+                            aotrillanes@national-u.edu.ph
+                        </p>
+                        <p class="description">
+                            Dean, College of Computing and Information Technologies (CCIT) , National University,
+                            Manila, Philippines
+                        </p>                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
-
 @endsection
